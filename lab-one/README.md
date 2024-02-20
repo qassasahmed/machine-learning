@@ -1,8 +1,8 @@
 # Introduction
-Machine Learning aims at _training_ a _model_ on a _dataset_ to _predict_ the outcomes.
+Machine Learning aims at _**training**_ a _**model**_ on a _**dataset**_ to _**predict**_ the outcomes.
 # Machine Learning models
 A model is a mathematical representation of a given problem.
-The goal is to find the parameters of the model. 
+The goal is to find the **_parameters_** of the model. 
 
 ![](figures/img_2.png)
 ![](figures/img_1.png)

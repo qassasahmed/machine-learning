@@ -34,7 +34,7 @@ Given three points (0, 1), (1, 0) and (2, 2). Find β∘  and  β1 for a simple 
 Recall [this example](https://github.com/qassasahmed/neural-networks-labs/blob/master/lab-1/linear-regression.py) from the introduction of **Neural Networks course Fall 2023-24**, We've used **Python's Scipy** to implement linear regression.
 ![](figures/img_6.png)
 ## 2.2 From scratch
-Now, we've implemented [***linear regression from scratch***](https://github.com/qassasahmed/machine-learning/tree/main/lab-one), and we got the same result shown below.
+Now, we've implemented [***linear regression from scratch***](https://github.com/qassasahmed/machine-learning/tree/main/lab-one/model.py), and we got the same result shown below.
 
 ![](figures/img_9.png)
 

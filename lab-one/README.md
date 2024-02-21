@@ -38,7 +38,7 @@ Now, we've implemented [***linear regression from scratch***](https://github.com
 
 ![](figures/img_9.png)
 
-# Thank You :) <3
+# Thank You
 
 
 

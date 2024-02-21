@@ -15,8 +15,8 @@ class Model:
         self.n = len(x)
 
     def linear_regression(self):
-        self.beta_one = sum(np.subtract(self.x_y, self.n * self.x_bar * self.y_bar)) / sum(
-            np.subtract(self.x_square, self.n * self.x_bar ** 2))
+        self.beta_one = (sum(self.x_y) - self.n * self.x_bar * self.y_bar) / (sum(
+            self.x_square) - self.n * self.x_bar ** 2)
         self.beta_note = self.y_bar - self.beta_one * self.x_bar
         return {"beta_note": self.beta_note, "beta_one": self.beta_one}
 
@@ -24,10 +24,11 @@ class Model:
     def plot_line(self):
         intercept = self.linear_regression()["beta_note"]
         slope = self.linear_regression()["beta_one"]
-        x = np.linspace(-2, 3, 10)
+        x = np.linspace(1, 16, 100)
         y = [slope * i + intercept for i in x]
-        plt.scatter(self.x_input, self.y_observed, label="Original date")
-        plt.plot(x, y, color="red", label="Fitting line")
+        plt.scatter(self.x_input, self.y_observed, color="orange", label="Original date")
+        plt.plot(x, y, color="green", label="Fitting line")
+        plt.legend(loc='upper center')
         plt.show()
 
 

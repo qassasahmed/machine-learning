@@ -22,12 +22,24 @@ Optimization technique without constrains to find β∘  and  β1.
 
 ![](figures/img_4.png)
 
-# Example
+# Example 1
 Given three points (0, 1), (1, 0) and (2, 2). Find β∘  and  β1 for a simple linear regression model.  
 
 ![](figures/img_5.png)
-![](figures/img_6.png)
+![](figures/img_8.png)
 ![](figures/img_7.png)
+
+# Example 2
+## 2.1 With SciPy
+Recall [this example](https://github.com/qassasahmed/neural-networks-labs/blob/master/lab-1/linear-regression.py) from the introduction of **Neural Networks course Fall 2023-24**, We've used **Python's Scipy** to implement linear regression.
+![](figures/img_6.png)
+## 2.2 From scratch
+Now, we've implemented [***linear regression from scratch***](https://github.com/qassasahmed/machine-learning/tree/main/lab-one), and we got the same result shown below.
+
+![](figures/img_9.png)
+
+# Thank You :) <3
+
 
 
 

@@ -1,6 +1,6 @@
 # Introduction
 Machine Learning aims at _**training**_ a _**model**_ on a _**dataset**_ to _**predict**_ the outcomes.
-# Machine Learning models
+# Machine Learning Models
 A model is a mathematical representation of a given problem.
 The goal is to find the **_parameters_** of the model. 
 
@@ -27,6 +27,7 @@ Given three points (0, 1), (1, 0) and (2, 2). Find β∘  and  β1 for a simple 
 
 ![](figures/img_5.png)
 ![](figures/img_6.png)
+![](figures/img_7.png)
 
 
 

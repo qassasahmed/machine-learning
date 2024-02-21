@@ -13,7 +13,7 @@ Simple Linear Regression
 
 ![](figures/img.png)
 ## 2. Score function
-Sum squared Error  
+Sum Squared Error (SSE)
 
 ![](figures/img_3.png)
 

@@ -63,7 +63,7 @@ The inverse matrix of a square matrix **A** is a matrix that, when multiplied by
 But, first, we need to calculate **(X<sup>T</sup>.X)<sup>-1</sup>**. To do that we can use `np.dot(X_T, X)`. Or, `X_T @ X`.
 
 ```Python
-inverse_matrix = np.linalg.inv(X_T @ X)
+INV_matrix = np.linalg.inv(X_T @ X)
 ```
 
 ### 4. Find (X<sup>T</sup>.Y)
@@ -74,7 +74,7 @@ X_T_Y = np.dot(X_T, Y)
 ### 5. Find the coeffcients (β)
 Finally, we can find the β vector by simply performing the following multiplication.
 ```python
-Beta = inverse_matrix @ X_T_Y
+Beta = INV_matrix @ X_T_Y
 ```  
 Check full code [here](model.py).  
 The figure below shows the **regression hyperplane** that fits the data considering an exact solution.  

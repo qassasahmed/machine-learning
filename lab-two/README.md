@@ -76,6 +76,7 @@ Finally, we can find the β vector by simply performing the following multiplica
 ```python
 Beta = inverse_matrix @ X_T_Y
 ```  
+Check full code [here](model.py).  
 The figure below shows the **regression hyperplane** that fits the data considering an exact solution.  
 
 ![img_9.png](figs/img_9.png)

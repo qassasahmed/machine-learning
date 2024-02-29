@@ -1,3 +1,7 @@
+# Lab (1) Notes
+Dr. Amr Amin
+Ahmed M. Al-Qassas
+---
 # Introduction
 Machine Learning aims at _**training**_ a _**model**_ on a _**dataset**_ to _**predict**_ the outcomes.
 # Machine Learning Models

@@ -5,21 +5,21 @@ Ahmed Al-Qassas
 ## Simple Linear Regression
 In simple linear regression, there is _**only one independent variable**_ and one dependent variable.
 
-![img_1.png](img_1.png)
+![img_1.png](figs/img_1.png)
 ## Multiple Regression
 In multiple regression, there are **two or more independent variables** and one dependent variable.  
 Considering an _**exact**_ solution, we can find the coefficients of independent variables, which are β.
 
-![img_2.png](img_2.png)  
+![img_2.png](figs/img_2.png)  
 
 For computation simplicity, we can represent the equations in the matrix form as:  
 
-![img_3.png](img_3.png)
+![img_3.png](figs/img_3.png)
 
 Our goal is to find the β vector which composes all coefficients. Hence, we need the β in the LHS.   
 To use **X<sup>-1</sup>**, we first need to make sure that **X** is a square matrix. Recall that **X<sup>T</sup>.X** is always a square matrix. **X<sup>T</sup>.Y = X<sup>T</sup>.X.β**. We can now calculate the inverse of **(X<sup>T</sup>.X)**. Hence, the equation will be:  
 
-![img_4.png](img_4.png)
+![img_4.png](figs/img_4.png)
 
 ## Steps to Find β vector (with Python)
 **Problem**: Given the following table, Fit the data.
@@ -63,7 +63,7 @@ The inverse matrix of a square matrix **A** is a matrix that, when multiplied by
 But, first, we need to calculate **(X<sup>T</sup>.X)<sup>-1</sup>**. To do that we can use `np.dot(X_T, X)`. Or, `X_T @ X`.
 
 ```Python
-inverse = np.linalg.inv(X_T @ X)
+inverse_matrix = np.linalg.inv(X_T @ X)
 ```
 
 ### 4. Find (X<sup>T</sup>.Y)
@@ -74,15 +74,16 @@ X_T_Y = np.dot(X_T, Y)
 ### 5. Find the coeffcients (β)
 Finally, we can find the β vector by simply performing the following multiplication.
 ```python
-Beta = inverse @ X_T_Y
+Beta = inverse_matrix @ X_T_Y
 ```  
 The figure below shows the **regression hyperplane** that fits the data considering an exact solution.  
 
-![img_9.png](img_9.png)
+![img_9.png](figs/img_9.png)
 
 ### Some hints on how the outputs should be like
-![img_7.png](img_7.png)  
-![img_8.png](img_8.png)
+![img_7.png](figs/img_7.png)  
+![img_8.png](figs/img_8.png)
 
 ## How to calculate the inverse with calculator
-![img_10.png](img_10.png)
+![img_11.png](figs/img_11.png)
+![img_12.png](figs/img_12.png)

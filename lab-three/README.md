@@ -54,7 +54,7 @@ The learning rate in _gradient descent algorithms_ is a hyperparameter, meaning 
 
 To find the gradient of each parameter, we use the formula below: 
 
-![img_9.png](figs/img_9.png)  
+![img.png](img.png)
 
 note: x<sub>io</sub> always = 1.
 

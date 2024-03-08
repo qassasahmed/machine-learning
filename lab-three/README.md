@@ -23,8 +23,9 @@ print(x_inverse)
 when you run the code, the line `x_inverse = np.linalg.inv(x)` will raise the error below.    
 
 ![img_5.png](figs/img_5.png)
-![img_4.png](figs/img_4.png)
-###### A singular matrix determinant = 0, that's why it is non-invertible. Read more about [singular matrices](https://www.cuemath.com/algebra/singular-matrix/).  
+![img_4.png](figs/img_4.png)  
+
+A singular matrix determinant = 0, that's why it is non-invertible. Read more about [singular matrices](https://www.cuemath.com/algebra/singular-matrix/).  
 
 # Gradient Method
 To come over the limitations of the exact solution, we need a solution that does **not** depend mainly on the calculation of the **inverse**. The gradient is to the rescue **:"""D**
@@ -53,8 +54,9 @@ The learning rate in _gradient descent algorithms_ is a hyperparameter, meaning 
 
 To find the gradient of each parameter, we use the formula below: 
 
-![img_9.png](figs/img_9.png)
-###### note: x<sub>io</sub> always = 1.
+![img_9.png](figs/img_9.png)  
+
+note: x<sub>io</sub> always = 1.
 
 Choosing the right learning rate is crucial. If it's too small, the algorithm will take a long time to converge to the minimum. If it's too large, the algorithm might overshoot the minimum and may even diverge, failing to find a good solution.
 

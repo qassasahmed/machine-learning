@@ -81,7 +81,7 @@ i	X1	X2	Y
 3	43.1	0	18
 4	27.6	2	30
 ```
-The code [here](model.py) performs one iteration setting the learning rate to 4, which is unlikely to happen.   
+The code [here](model.py) performs one iteration setting the learning rate to 4, which is unlikely to happen. Solve it yourself and check your answers. 
 ```python
 import numpy as np
 
